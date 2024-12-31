@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Luxurycarscard from './Luxurycarscard';
 const Satisfaction = () => {
     return (
-        <div className='satisfaction py-28'>
+        <div className='satisfaction py-28 px-8'>
             <div className='container'>
                 <div className='grid grid-cols-12 items-center gap-14'>
                     <div className='col-span-4'>
