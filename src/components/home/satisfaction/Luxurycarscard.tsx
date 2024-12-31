@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import Luxurycars from '../../../../public/images/about-limmo.png.png'
+// import Luxurycars from '../../../../public/images/about-limmo.png.png'
 import { PiSeatbeltFill } from "react-icons/pi";
 
 type ImageProps = {
@@ -14,7 +14,7 @@ type ImageProps = {
 const Luxurycarscard: React.FC<ImageProps> = ({ content,title,mechanic, seats,diesel,})=>{
     return (
         <div className='luxurycarscard p-12 border-dashed border-2 border-black/10'>
-            <Image src={Luxurycars} alt='Luxurycars' />
+            <Image src="/images/about-limmo.png.png" alt='Luxurycars' width={1000} height={1000}/>
             <h6 className='mt-8'>{title}</h6>
             <p>{content}</p>
             <div className='feature my-10 grid grid-cols-3'>

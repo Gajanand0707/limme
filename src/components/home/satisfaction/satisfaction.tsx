@@ -1,5 +1,4 @@
 import React from 'react';
-import Satisfactionimage from '../../../../public/images/about-limmo.png.png'
 import Image from 'next/image';
 import Luxurycarscard from './Luxurycarscard';
 const Satisfaction = () => {
@@ -14,7 +13,7 @@ const Satisfaction = () => {
                             <button className='button bg-yellow text-dark'>Read More</button>
                     </div>
                     <div className='col-span-8'>
-                        <Image src={Satisfactionimage} alt='Satisfactionimage' />
+                        <Image src="/images/about-limmo.png.png" alt='Satisfactionimage' width={1000} height={1000} />
                     </div>
                 </div>
                 <div className='grid grid-cols-3 gap-12 mt-20'>

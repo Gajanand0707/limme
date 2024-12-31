@@ -5,7 +5,7 @@ import './Homebanner.css';
 const Homebanner = () => {
     return (
         <div className='Homebanner'>
-            <div className='slider-items text-white px-4 pt-[300px] pb-[490px]'>
+            <div className='slider-items text-white px-4 pt-[300px] pb-[300px]'>
                 <div className='container'>
                     <h1>
                         <span className='text-yellow'>Limousine</span> <br />
