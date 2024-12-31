@@ -4,7 +4,6 @@ import Luxurycars from '../../../../public/images/about-limmo.png.png'
 import { PiSeatbeltFill } from "react-icons/pi";
 
 type ImageProps = {
-    Cardimage : string;
     title: string;
     content : string;
     seats:string;
@@ -12,7 +11,7 @@ type ImageProps = {
     mechanic:string
 }
 
-const Luxurycarscard: React.FC<ImageProps> = ({Cardimage, content,title,mechanic, seats,diesel,})=>{
+const Luxurycarscard: React.FC<ImageProps> = ({ content,title,mechanic, seats,diesel,})=>{
     return (
         <div className='luxurycarscard p-12 border-dashed border-2 border-black/10'>
             <Image src={Luxurycars} alt='Luxurycars' />
