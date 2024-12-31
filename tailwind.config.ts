@@ -11,7 +11,11 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        yellow : "#D7B65D",
+        dark: "#192026"
       },
+
+
     },
   },
   plugins: [],
