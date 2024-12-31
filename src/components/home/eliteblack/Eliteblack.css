@@ -1,5 +1,5 @@
 .eliteblack{
-    background-image: url(../../../../public/images/luxurycar.jpg);
+    background-image: url(/images/luxurycar.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;

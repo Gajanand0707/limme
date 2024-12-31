@@ -19,17 +19,18 @@ const Homebanner = () => {
                     <div className='container overflow-hidden px-4'>
                         <div className='banner-card gap-[90px] grid grid-cols-3'>
                             <Bannercard
-                                Cardimage="./"
+                                Cardimage="/images/bannerbg.png"
+                                heading="Airport Transfers"
+                                content="Pellentesque semper dui eget fermentum sagittis. Cur abitur bibendum id ante."
+                            
+                            />
+                            <Bannercard
+                                Cardimage="/images/bannerbg.png"
                                 heading="Airport Transfers"
                                 content="Pellentesque semper dui eget fermentum sagittis. Cur abitur bibendum id ante."
                             />
                             <Bannercard
-                                Cardimage="./"
-                                heading="Airport Transfers"
-                                content="Pellentesque semper dui eget fermentum sagittis. Cur abitur bibendum id ante."
-                            />
-                            <Bannercard
-                                Cardimage="./"
+                                Cardimage="/images/bannerbg.png"
                                 heading="Airport Transfers"
                                 content="Pellentesque semper dui eget fermentum sagittis. Cur abitur bibendum id ante."
                             />
