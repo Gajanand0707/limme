@@ -13,7 +13,7 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,button {
   font-family: "Taviraj", serif;
 }
 
@@ -38,6 +38,11 @@ h3 {
   font-weight: 500;
   line-height: 57.6px;
 }
+h4 {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 46px;
+}
 
 .body-text {
   font-size: 16px;
@@ -59,10 +64,10 @@ h6 {
 }
 
 
-button {
+.button {
   border: none;
   padding: 14px 32px;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 27.2px;
 
@@ -72,4 +77,49 @@ button {
   max-width: 1510px;
   margin: 0 auto;
   width: 100%;
+}
+.formblock {
+  transform: translate(-0%, -50%);
+  right: 70px;
+  top: 50%;
+}
+.secimage{
+  transform: translateX(-50%) translateY(-50%);
+}
+@media only screen and (max-width: 768px) {
+
+  h1 {
+    font-size: 50px;
+    line-height: 60px;
+  }
+  
+  h2 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  
+  h3 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  h4 {
+    font-size: 28px;
+    line-height: 35px;
+  }
+  
+  .body-text {
+    font-size: 16px;
+    line-height: 27.2px;
+  }
+  
+  .body-text-big {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  
+  h6 {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  
 }

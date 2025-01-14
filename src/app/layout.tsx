@@ -1,16 +1,33 @@
 import type { Metadata } from "next";
-// import { Geist, Geist_Mono } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 
-// const geistSans = Geist({
-//   variable: "--font-geist-sans",
-//   subsets: ["latin"],
-// });
+// Define Geist Sans and Geist Mono fonts
+const geistSans = localFont({
+  src: "./fonts/GeistVF.woff",
+  variable: "--font-geist-sans",
+  weight: "100 900",
+});
 
-// const geistMono = Geist_Mono({
-//   variable: "--font-geist-mono",
-//   subsets: ["latin"],
-// });
+const geistMono = localFont({
+  src: "./fonts/GeistMonoVF.woff",
+  variable: "--font-geist-mono",
+  weight: "100 900",
+});
+
+// Define Helvetica font
+const helvetica = localFont({
+  src: [
+    { path: '/fonts/Helvetica.woff', weight: '400', style: 'normal' },
+      { path: '/fonts/Helvetica-Bold.woff', weight: '700', style: 'normal' },
+      { path: '/fonts/Helvetica-BoldOblique.woff', weight: '700', style: 'italic' },
+      { path: '/fonts/helvetica-compressed-5871d14b6903a.woff', weight: '300', style: 'normal' },
+      { path: '/fonts/helvetica-light-587ebe5a59211.woff', weight: '400', style: 'normal' },
+      { path: '/fonts/Helvetica-Oblique.woff', weight: '400', style: 'italic' },
+     
+  ],
+  variable: '--font-helvetica',  // CSS variable for Helvetica font
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -24,9 +41,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`antialiased`}
-      >
+      <body className={`${geistSans.variable} ${geistMono.variable} ${helvetica.variable} antialiased`}>
         {children}
       </body>
     </html>
