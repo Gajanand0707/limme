@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef } from "react";
-import './slidermain.css'
+import '../text-slide/slidermain.css'
 interface TextSliderProps {
   items: string[]; // Array of text items to display
 }
