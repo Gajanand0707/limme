@@ -29,7 +29,7 @@ export default function Home() {
       <Faq />
      
       <Section8
-        backgroundImage="/section8bg.png"
+        backgroundImage="/Section8bg.png"
         heading="To the airport with maximum comfort"
         description="We value the time and quality of travel for each of our clients" />
         <Offer />
